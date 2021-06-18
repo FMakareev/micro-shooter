@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnPlayerFire
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Dispatch
+      Event","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Dispatch
+      Event Exit","label":null,"summary":"","hideLabel":false},{"key":"Subscribe
+      Event","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Target","label":null,"summary":"Event
+      triggering object","hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":null,"key":"","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":"OnPlayerFire","summary":"","pan":{"x":-12.13333,"y":28.84724},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-513.0,"y":-167.0},"guid":"8e121d17-3644-40a6-a087-5c46f05e658f","$version":"A","$type":"Bolt.GraphInput","$id":"14"},{"defaultValues":{},"position":{"x":135.0,"y":-173.0},"guid":"c524ce6c-c6cf-49f5-9f8b-f3d173f0800c","$version":"A","$type":"Bolt.GraphOutput","$id":"16"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"","$type":"System.String"}},"position":{"x":-144.0,"y":128.0},"guid":"b0a9b970-fba6-47d2-aad8-8f9d94e3d11c","$version":"A","$type":"Bolt.CustomEvent","$id":"18"},{"argumentCount":0,"defaultValues":{"name":{"$content":"","$type":"System.String"},"target":null},"position":{"x":-176.0,"y":-175.0},"guid":"0b21a4f4-9b9e-46d6-bbed-15611c9c3d1b","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"20"},{"type":"System.String","value":{"$content":"OnPlayerFire","$type":"System.String"},"defaultValues":{},"position":{"x":-516.0,"y":105.0},"guid":"12868ce9-f36d-4385-9404-ca77305e61d1","$version":"A","$type":"Bolt.Literal","$id":"22"},{"sourceUnit":{"$ref":"20"},"sourceKey":"exit","destinationUnit":{"$ref":"16"},"destinationKey":"Dispatch
+      Event Exit","guid":"d9e6dfbf-25c7-4d5c-9bc6-712f3d124831","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"Subscribe
+      Event","guid":"a0b75090-1cda-49dc-bc07-f92758bb9e0d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Dispatch
+      Event","destinationUnit":{"$ref":"20"},"destinationKey":"enter","guid":"c1c2df47-64b0-431a-968e-2732e6e58c37","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"name","guid":"9eb6ee0f-bdb2-4220-91bd-0b617f0a1790","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"output","destinationUnit":{"$ref":"20"},"destinationKey":"name","guid":"4c4e1a8d-1f2d-4a14-8011-3b8d82e40176","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Target","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"4653851d-a487-4fb0-bebe-7a3a5da56ef5","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"Target","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"5eb72542-f6d1-4ebe-84dd-0e0eda8f3770","$type":"Bolt.ValueConnection"},{"position":{"xMin":-210.0,"yMin":86.0,"xMax":55.0,"yMax":255.0},"label":"Subscribe
+      to event","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"479bc5dc-b19f-4b45-bb83-5880b0120baf","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":-213.0,"yMin":-213.0,"xMax":9.0,"yMax":-2.0},"label":"Event
+      dispatch","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ce63cfdb-c38a-4020-b982-e31c38a0ccbc","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnCollisionExit2DByLayer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Output
+      Exit","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Target","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"System.String","key":"Layer
+      Name","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"Gameobject
+      Collider","label":null,"summary":null,"hideLabel":false},{"_type":"System.Boolean","key":"Is
+      Collision","label":null,"summary":null,"hideLabel":false}],"title":"OnCollisionExit2DByLayer","summary":null,"pan":{"x":0.0,"y":0.0},"zoom":0.6999999,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-376.0,"y":-186.0},"guid":"2d3549c0-6f49-4a58-b3bd-8e4eb30a529c","$version":"A","$type":"Bolt.OnCollisionExit2D","$id":"14"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-88.0,"y":-113.0},"guid":"7915c892-c000-4d88-916e-69b8e03ca61e","$version":"A","$type":"Bolt.SuperUnit","$id":"16"},{"defaultValues":{},"position":{"x":340.0,"y":-215.0},"guid":"1209afb1-57a3-4954-919c-350a76d701ce","$version":"A","$type":"Bolt.GraphOutput","$id":"19"},{"defaultValues":{},"position":{"x":-606.0,"y":-186.0},"guid":"eb135129-26c9-47ef-855f-727393701481","$version":"A","$type":"Bolt.GraphInput","$id":"21"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"Output
+      Exit","guid":"afed4840-940e-4ec8-aee8-7168c8ad7bf2","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"collider","destinationUnit":{"$ref":"16"},"destinationKey":"Collider","guid":"a2c4e94c-337a-4f13-a82a-c276176dbda2","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Collider
+      Gameobject","destinationUnit":{"$ref":"19"},"destinationKey":"Gameobject Collider","guid":"78f6063d-31bb-420d-81ab-0879e2801bb2","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"Is
+      Collision","destinationUnit":{"$ref":"19"},"destinationKey":"Is Collision","guid":"70a86f71-f978-435b-aa5d-0e886b7dc435","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"Target","destinationUnit":{"$ref":"14"},"destinationKey":"target","guid":"773870e4-2063-45b4-9fb5-f342aafd00df","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"Layer
+      Name","destinationUnit":{"$ref":"16"},"destinationKey":"Layer Name","guid":"0cd52910-a452-4e70-8f7a-0cdffdd9dbdf","$type":"Bolt.ValueConnection"},{"position":{"xMin":-666.0,"yMin":-253.0,"xMax":577.0,"yMax":75.0},"label":"Exit","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"49c51aff-6a17-414d-9315-095088056895","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c24ed5a4cff9a2745b5bf05eae7fa189, type: 2}

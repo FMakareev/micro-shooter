@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: GetCurrentWeapon
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[{"key":"Out","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"Weapon","label":null,"summary":null,"hideLabel":false}],"title":"GetCurrentWeapon","summary":null,"pan":{"x":238.8984,"y":-37.28256},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":262.0,"y":-126.0},"guid":"78e813db-9fb9-4afa-83b2-36dfb17dfafd","$version":"A","$type":"Bolt.GraphOutput","$id":"11"},{"defaultValues":{"index":{"$content":0,"$type":"System.Int32"}},"position":{"x":62.0,"y":-112.0},"guid":"924310e0-dbbe-452e-8e9f-e3dd26299c11","$version":"A","$type":"Bolt.GetListItem","$id":"13"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"WeaponList","$type":"System.String"}},"position":{"x":-146.0,"y":-112.0},"guid":"3d6633fd-b3c2-4eb8-9c7d-1db804cfa79b","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"ActiveWeapon","$type":"System.String"}},"position":{"x":-162.0,"y":15.0},"guid":"254d85fd-e2df-445d-ac49-df8028c995c2","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"list","guid":"03f8713e-8997-4ff6-b230-2376e14da3c3","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"index","guid":"a6952b2f-70a1-43f6-b6ce-284e4ff311dc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"item","destinationUnit":{"$ref":"11"},"destinationKey":"Weapon","guid":"82422d07-7dba-4857-bda9-52df57be103c","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

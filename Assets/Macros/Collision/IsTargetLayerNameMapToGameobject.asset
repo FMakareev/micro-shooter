@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: IsTargetLayerNameMapToGameobject
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Collider","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":false,"defaultValue":null,"_type":"System.String","key":"Layer
+      Name","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"UnityEngine.GameObject","key":"Collider
+      Gameobject","label":null,"summary":null,"hideLabel":false},{"_type":"System.Boolean","key":"Is
+      Collision","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":128.0,"y":-114.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-367.0,"y":-302.0},"guid":"29a63cf0-962b-4879-a6a9-9bffe597f4ca","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":463.0,"y":-299.0},"guid":"f60d1b58-cbc7-493c-a61d-828c689a5e3f","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"chainable":false,"member":{"name":"NameToLayer","parameterTypes":["System.String"],"targetType":"UnityEngine.LayerMask","targetTypeName":"UnityEngine.LayerMask","$version":"A"},"defaultValues":{"%layerName":{"$content":"Enemies","$type":"System.String"}},"position":{"x":-143.0,"y":-204.0},"guid":"814ff547-c845-4d81-af29-ea7fb74d8c5f","$version":"A","$type":"Bolt.InvokeMember","$id":"17"},{"member":{"name":"gameObject","parameterTypes":null,"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null},"position":{"x":-160.0,"y":-302.0},"guid":"83c8eae4-f2a9-46e4-be12-6af25314c16a","$version":"A","$type":"Bolt.GetMember","$id":"20"},{"member":{"name":"layer","parameterTypes":null,"targetType":"UnityEngine.GameObject","targetTypeName":"UnityEngine.GameObject","$version":"A"},"defaultValues":{"target":null},"position":{"x":145.0,"y":-204.0},"guid":"a883a0b2-52e0-473f-8c95-be212060f905","$version":"A","$type":"Bolt.GetMember","$id":"23"},{"numeric":false,"defaultValues":{},"position":{"x":303.0,"y":-204.0},"guid":"1ae6a3ac-746b-4f1d-adf0-ec4cd56b698f","$version":"A","$type":"Bolt.Equal","$id":"26"},{"sourceUnit":{"$ref":"17"},"sourceKey":"result","destinationUnit":{"$ref":"26"},"destinationKey":"b","guid":"eec51656-8d92-4e5b-9500-461542406e6f","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"target","guid":"3ad5c382-529d-492c-b7f6-ad9b052279ff","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"value","destinationUnit":{"$ref":"26"},"destinationKey":"a","guid":"db84e35e-322e-4e1a-b45b-679820d471bc","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Collider","destinationUnit":{"$ref":"20"},"destinationKey":"target","guid":"14a203d2-60fc-4c28-a8ed-e19e597b2619","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Layer
+      Name","destinationUnit":{"$ref":"17"},"destinationKey":"%layerName","guid":"0069eb85-bf4d-4a6d-a889-d8340df503c0","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"26"},"sourceKey":"equal","destinationUnit":{"$ref":"15"},"destinationKey":"Is
+      Collision","guid":"ffe90c85-5113-4f97-a5ce-03ceca8622c8","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"Collider
+      Gameobject","guid":"747665fb-4a1d-47e5-9e14-75db8939f6ca","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

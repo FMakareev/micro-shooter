@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: OnGunShot
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Dispatch
+      Event","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Dispatch
+      Event Exit","label":null,"summary":"","hideLabel":false},{"key":"Subscribe
+      Event","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":null,"_type":"UnityEngine.GameObject","key":"Target","label":null,"summary":"Event
+      triggering object","hideLabel":false}],"valueOutputDefinitions":[],"title":"OnGunShot","summary":"it
+      is event gunshot from gun at the target enemy","pan":{"x":-28.17227,"y":-18.38828},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-610.0,"y":-159.0},"guid":"8e121d17-3644-40a6-a087-5c46f05e658f","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":135.0,"y":-173.0},"guid":"c524ce6c-c6cf-49f5-9f8b-f3d173f0800c","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"","$type":"System.String"}},"position":{"x":-144.0,"y":128.0},"guid":"b0a9b970-fba6-47d2-aad8-8f9d94e3d11c","$version":"A","$type":"Bolt.CustomEvent","$id":"17"},{"argumentCount":0,"defaultValues":{"name":{"$content":"","$type":"System.String"},"target":null},"position":{"x":-176.0,"y":-175.0},"guid":"0b21a4f4-9b9e-46d6-bbed-15611c9c3d1b","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"19"},{"type":"System.String","value":{"$content":"OnGunShot","$type":"System.String"},"defaultValues":{},"position":{"x":-516.0,"y":105.0},"guid":"12868ce9-f36d-4385-9404-ca77305e61d1","$version":"A","$type":"Bolt.Literal","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Dispatch
+      Event","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"7671bd97-dc6b-432a-83b3-dbd72e7b4916","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"Dispatch
+      Event Exit","guid":"e5a953c5-0a66-4383-a9be-09c7a786a882","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"Subscribe
+      Event","guid":"af506911-bd64-4f74-ab9c-07011d1e11dc","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"name","guid":"75d049ef-5c8f-41a9-949e-001dccb6908b","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"output","destinationUnit":{"$ref":"17"},"destinationKey":"name","guid":"c52bd5f5-f064-487d-9a86-362d546a79cd","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Target","destinationUnit":{"$ref":"19"},"destinationKey":"target","guid":"add37c31-7bdd-4538-b072-2e31865ecc90","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Target","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"a47143d6-6a0d-4361-a428-998d57ee1fae","$type":"Bolt.ValueConnection"},{"position":{"xMin":-210.0,"yMin":86.0,"xMax":55.0,"yMax":255.0},"label":"Subscribe
+      to event","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"479bc5dc-b19f-4b45-bb83-5880b0120baf","$version":"A","$type":"Ludiq.GraphGroup"},{"position":{"xMin":-213.0,"yMin":-213.0,"xMax":9.0,"yMax":-2.0},"label":"Event
+      dispatch","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ce63cfdb-c38a-4020-b982-e31c38a0ccbc","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []

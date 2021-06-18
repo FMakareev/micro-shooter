@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: WeaponFire
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":235.8808,"y":17.61635},"zoom":0.25,"elements":[{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"WeaponsContainer","$type":"System.String"}},"position":{"x":-429.0,"y":-288.0},"guid":"9911f2fb-57d4-42c3-a44d-e7d592dd81a1","$version":"A","$type":"Bolt.GetVariable","$id":"9"},{"kind":"Object","defaultValues":{"name":{"$content":"IsShooting","$type":"System.String"},"object":null},"position":{"x":872.0,"y":-295.0},"guid":"83f358ff-1fb3-4710-bcef-f063307eda61","$version":"A","$type":"Bolt.SetVariable","$id":"11"},{"defaultValues":{},"position":{"x":602.0,"y":-288.0},"guid":"826d756f-b9a8-49d7-ab76-5d59ef34e91a","$version":"A","$type":"Bolt.Branch","$id":"13"},{"type":"System.Boolean","value":{"$content":true,"$type":"System.Boolean"},"defaultValues":{},"position":{"x":714.0,"y":-128.0},"guid":"b39f6cbd-e5e1-4604-a8e6-c34c5d84f098","$version":"A","$type":"Bolt.Literal","$id":"15"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":293.0,"y":-133.0},"guid":"ee3192f8-4484-41ae-9ea1-1ab65dacf0b3","$version":"A","$type":"Bolt.SuperUnit","$id":"17"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-182.0,"y":-288.0},"guid":"30528c62-7982-4584-8607-a2efdcba29fd","$version":"A","$type":"Bolt.SuperUnit","$id":"20"},{"defaultValues":{},"position":{"x":204.0,"y":-288.0},"guid":"ba23433e-fcec-450c-9f7b-e9d621d8c657","$version":"A","$type":"Bolt.Branch","$id":"23"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"IsShooting","$type":"System.String"},"object":null},"position":{"x":-46.0,"y":-135.0},"guid":"e4b1cfd0-464f-4064-bf3c-85c493864c51","$version":"A","$type":"Bolt.GetVariable","$id":"25"},{"sourceUnit":{"$ref":"13"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"11"},"destinationKey":"assign","guid":"ae7eec1f-3904-4b2b-a5b4-f0a7db90741c","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"Subscribe
+      Event","destinationUnit":{"$ref":"23"},"destinationKey":"enter","guid":"1a876052-e3cd-4463-8023-dd70f9b961e4","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"d6f5401e-f9bf-4953-89fc-127d61d83549","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"output","destinationUnit":{"$ref":"11"},"destinationKey":"input","guid":"bdb9cda8-5b1d-4d85-80b2-735e12b68da8","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"value","destinationUnit":{"$ref":"23"},"destinationKey":"condition","guid":"9bfab312-f718-4c64-967f-6db98ce78427","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"value","destinationUnit":{"$ref":"20"},"destinationKey":"Target","guid":"f93d8f46-5c09-4229-bd57-29bafab108ba","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"IsEmpty","destinationUnit":{"$ref":"13"},"destinationKey":"condition","guid":"471611b1-b5f0-4844-a4d1-ee46a1434067","$type":"Bolt.ValueConnection"},{"position":{"xMin":-498.0,"yMin":-380.0,"xMax":1102.0,"yMax":145.0},"label":"Is
+      shooting","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"352f029a-48d2-415d-b39a-855c9ab07154","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 683eac0407d6c0849a1ac87e31f10e54, type: 2}
+    - {fileID: 11400000, guid: 67f2fc9ca4a68b844a0034881d8fb13e, type: 2}
